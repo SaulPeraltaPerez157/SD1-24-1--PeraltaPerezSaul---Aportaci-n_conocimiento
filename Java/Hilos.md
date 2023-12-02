@@ -25,7 +25,7 @@ método <code>currentThread()</code>, este método tiene la siguiente definició
 
 Este método regresa una referencia al hilo en el cual es llamado dicho método.
 
-Un ejemplo del uso de este método, así como control del hilo principal se encuentra en el archivo <code>HiloPrincipal.java</code>
+Un ejemplo del uso de este método, así como control del hilo principal se encuentra en el archivo <code>HiloPrincipal/HiloPrincipal.java</code>
 
 #### Observaciones sobre el programa.
 
@@ -36,7 +36,7 @@ Cuando se coloca el objeto <code>t</code> en un <code>println()</code> se imprim
 Observar la estructura de la lista, el primer elemento es el nombre del hilo, el segundo elemento es la prioridad
 y el tercer elemento es el nombre del grupo al que pertenece.
 
-> <code>Hilo actual: Thread[<nombre_hilo>,<prioridad>,<nombre_grupo_hilo>]</code>
+> <code>Hilo actual: Thread[<nombre_hilo>,<hilo_prioridad>,<nombre_grupo_hilo>]</code>
 
 Cuando se utiliza el método <code>setName(String name)</code> se modifica el nombre del hilo principal
 obteniendo la siguiente salida.
